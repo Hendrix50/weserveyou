@@ -1,0 +1,61 @@
+h2 {
+    background-color: rgb(231, 14, 50);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    }
+    body{
+background-color: rgb(205, 212, 212);
+
+
+    }
+#P3{
+width: 100px;
+height: 40px;
+background-color: lawngreen;
+font-size: 20PX;
+text-align:center;
+margin: 10%;
+animation:MYCOLOR;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}   
+@keyframes MYCOLOR{
+from{
+background-color: lightcoral;
+}
+to{
+background-color: lightseagreen;
+}
+
+}
+header{
+  border-style: ridge;  
+  margin: 20px;
+  background-image:url(os.png);
+  border:radius 2px; 
+}
+
+ul{
+overflow: hidden;
+margin:0px;
+list-style-type: none;
+padding: 0px;
+
+}
+li a{
+float: left;
+display: block;
+color: rgb(77, 3, 3);
+padding: 10px 15px;
+text-align:center ;
+text-decoration: none;
+border:solid ;
+}
+li a:hover{
+    background-color: red;
+}
+#i2{
+    background-color: sienna;
+    margin: 0px; 
+    padding: 0px;
+}
